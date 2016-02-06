@@ -1,0 +1,22 @@
+{
+  "name": "APP",
+  "description": "DESCRIPTION",
+  "author": "NAME",
+  "version": "0.0.1",
+  "repository": {
+    "type": "GIT",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch w"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "babel-brunch": "^6.0.0",
+    "brunch": "^2.2.3",
+    "css-brunch": "^2.0.0",
+    "jaded-brunch": "^2.2.3",
+    "javascript-brunch": "^2.0.0",
+    "sass-brunch": "^2.0.0"
+  }
+}

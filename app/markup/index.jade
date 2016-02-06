@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    //- STYLESHEETS
+    link(rel="stylesheet", href="app.css")
+    link(rel="stylesheet", href="jquery-ui/jquery-ui.min.css")
+    link(rel="stylesheet", href="jquery-ui-iconfont/jquery-ui.icons.css")
+    //- CONTENT
+    meta(charset="utf-8")
+    title Alpine Brunch
+  body
+    
+    
+    //- SCRIPTS
+    script(src="libs.js")
+    script(src="jquery/jquery.js")
+    script(src="jquery-ui/jquery-ui.min.js")
+    script(src="templates.js")
+    script(src="app.js")
+    script.
+      const jade = require('jade/runtime');
+      const App = require('scripts/app');
+      App.init();
+    //- SCRIPTS
