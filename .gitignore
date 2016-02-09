@@ -1,6 +1,8 @@
 bower_components
 node_modules
-projectdocs
+projectdocs/*
+!projectdocs
 public/*
+!public
 libcollection
 npm-debug.log
