@@ -1,4 +1,0 @@
-Put here backend logic like node cli tools and small servers etc.
-
-These files should not be concatenated so each file needs an entry in the
-brunch-config

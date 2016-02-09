@@ -29,6 +29,5 @@ module.exports = config:
     javascripts: joinTo:
       'app.js': /scripts\//
       'libs.js': /^(?!app\/)/
-      'backend/file.js': /backend\/file.*/
     templates: joinTo:
       'templates.js': /templates\//
